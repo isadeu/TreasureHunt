@@ -24,11 +24,11 @@ public class distance : MonoBehaviour {
 			print ("distance to other: " + dist);
 			if (dist >= 6f) {
 				print ("distance is too far 6");
-				clueText.text = "option1";
+				clueText.text = "You are so far from the computer!";
 				//texton = true;
 			}
 			if (dist < 6f) {
-				clueText.text = "option2";
+				clueText.text = " nothing ";
 			
 			}
 			//} else {
