@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\bingo.cs" />
+     <Compile Include="Assets\Scripts\distance.cs" />
      <Compile Include="Assets\Scripts\mov.cs" />
      <Compile Include="Assets\Scripts\win.cs" />
  <Reference Include="UnityEngine.UI">

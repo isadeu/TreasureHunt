@@ -18,9 +18,14 @@ public class win : MonoBehaviour {
 		
 		
 	}
-	void OnTriggerEnter (Collider c) {
-		if (c.gameObject.tag == "Player") {
-			print ("colliding with other");	
+	void OnTriggerStay (Collider c) {
+		if (c.gameObject.tag == "Player"){
+			print ("inside the collider");
+			if (Input.GetKey(KeyCode.Space)) {
+				print ("detected the space");
+				print ("colliding with other");	
+				SceneManager.LoadScene ("win");
+			}
 		}
 	//	print ("oOOh");
 		//SceneManager.LoadScene ("win");
