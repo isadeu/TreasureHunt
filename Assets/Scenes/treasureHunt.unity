@@ -161,6 +161,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+  clueText: {fileID: 0}
+  texton: 0
 --- !u!114 &13917049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -281,7 +283,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 185093028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.99, y: 0.68, z: -4.13}
+  m_LocalPosition: {x: -1.4, y: 0.68, z: -10.07}
   m_LocalScale: {x: 2.4283972, y: 2.4283977, z: 2.4283977}
   m_Children: []
   m_Father: {fileID: 0}
@@ -566,6 +568,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1952658101}
+  clueText: {fileID: 13917049}
+  texton: 0
 --- !u!1 &1503280322
 GameObject:
   m_ObjectHideFlags: 0
