@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class distance : MonoBehaviour {
-
+	//3rd object
 	public Transform player;
 	public Text clueText;
 	//public bool texton;
@@ -22,13 +22,13 @@ public class distance : MonoBehaviour {
 		if (player) {
 			float dist = Vector3.Distance (player.position, transform.position);
 			print ("distance to other: " + dist);
-			if (dist >= 6f) {
+			if (dist <= 3f) {
 				print ("distance is too far 6");
-				clueText.text = "You are so far from the computer!";
+				clueText.text = "Woah! Right ahead!";
 				//texton = true;
 			}
-			if (dist < 6f) {
-				clueText.text = " nothing ";
+			if (dist > 3f) {
+				clueText.text = " Lamp";
 			
 			}
 			//} else {
